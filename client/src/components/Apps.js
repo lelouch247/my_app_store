@@ -79,6 +79,11 @@ class Apps extends React.Component {
               Clear Filter: {category}
             </Button>
         }
+
+        <Button
+          fluid
+          basic
+        >Add New App</Button>
         <Divider />
         <Grid columns={16}>
           <Grid.Row>
